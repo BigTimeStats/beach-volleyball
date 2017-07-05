@@ -1,4 +1,4 @@
-This repository contains **most** beach volleybal men's and women's match data from the FIVB tour between January 2013 and July 2017.
+This repository contains **most** beach volleybal men's and women's match data from the FIVB tour between January 2013 and July 2017. Includes pool and elimination matches.
 
 **Some notes:**
 
