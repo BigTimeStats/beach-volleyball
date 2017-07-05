@@ -12,3 +12,6 @@ The **score** will indicate which team won. It should be read from left to right
 Tournament type is based on FIVB designation:
 
 WCH=World Championship, GS=Grand Slam, MJS = Major Series, WTF = World Tour Finals, WT5*=World Tour 5 Stars, WT4*=World Tour 4 Stars,  etc., SAT=Satellite, CHAL=Challenger, MST=Master, CCH=Continental Championship, NT = National Tour, U19 = Under 19, 
+
+
+AVP matches coming soon.
