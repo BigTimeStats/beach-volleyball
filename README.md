@@ -1,3 +1,5 @@
+# Beach Volleyball Match Data
+
 This repository contains **most** beach volleybal men's and women's match data from the FIVB tour between January 2013 and July 2017. Includes pool and elimination matches.
 
 **Some notes:**
@@ -13,5 +15,7 @@ Tournament type is based on FIVB designation:
 
 WCH=World Championship, GS=Grand Slam, MJS = Major Series, WTF = World Tour Finals, WT5*=World Tour 5 Stars, WT4*=World Tour 4 Stars,  etc., SAT=Satellite, CHAL=Challenger, MST=Master, CCH=Continental Championship, NT = National Tour, U19 = Under 19, 
 
-
 AVP matches coming soon.
+
+# License
+Attribution required. Non-commercial use only
