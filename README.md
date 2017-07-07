@@ -1,11 +1,13 @@
 # Beach Volleyball Match Data
 
-This repository contains **most** beach volleybal men's and women's match data from the FIVB tour between April 2013 and July 2017 and the AVP tour between April 2014 and June 2017. FIVB includes pool and elimination matches. AVP includes pool, elimination, loser's bracket, winner's bracket, and qualifying (as applicable)
+This repository contains **most** beach volleybal men's and women's match data from the FIVB tour between April 2013 and July 2017 and the AVP tour between April 2014 and June 2017. FIVB includes pool and elimination matches. AVP includes pool, elimination, loser's bracket, winner's bracket, and qualifying matches (as applicable).
 
 **Some notes:**
 
 The team names have been cleaned (some special chars remain in FIVB dataset) and sorted. 
 *"Sorting"* means that a team will always appear based on the alphabetic order of the player names. For example, Dalhauser/Lucena will not appear as Lucena/Dalhauser. All teams have been standardized in this way.
+
+The FIVB does not follow a naming convention that can be identified (sometimes last name only, sometimes last name first initial, etc.). The AVP appears to have the full name. Parse at your leisure :)
 
 The **dataset** variable in FIVB is used to better identify where the data came from. Note that in dataset 2, ranking is missing (future update) and the **round** names are different. The round names are consistent within a tournament, and generally the lowest number pool corresponds to A, the next lowest number to B, etc.
 
