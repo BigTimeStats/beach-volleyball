@@ -4,7 +4,7 @@ This repository contains **most** beach volleybal men's and women's match data f
 
 **Some notes:**
 
-The player names have been sorted alphabetically for a winning or losing team. This means that "Nick Lucena" should always appear in "w_player1" and "Phil Dalhauser" should appear in "w_player2".
+The player names have been sorted alphabetically for a winning or losing team. This means that "Nick Lucena" should always appear in "w_player1" and "Phil Dalhausser" should appear in "w_player2".
 
 Age is calculated as: (event date - birthdate) / 365.25, rounded to 7 decimals.
 
