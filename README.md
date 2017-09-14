@@ -1,6 +1,6 @@
 # Beach Volleyball Match Data
 
-This repository contains **most** beach volleybal men's and women's match data from the AVP & FIVB tours. Archive contains matches from September 2000 to July 2017. Updated files published periodically with match dates in filenames.
+This repository contains **most** beach volleyball men's and women's match data from the AVP & FIVB tours. Archive contains matches from September 2000 to July 2017. Updated files published periodically with match dates in filenames.
 
 **Some notes:**
 
