@@ -26,9 +26,15 @@ Using this data, I created a beach volleyball Tableau dashboard to summarize som
 
 https://public.tableau.com/views/AVPFIVBPlayerInteractiveResultsandStats/Dashboard3
 
-![Tableau Dashboard]("Tableau Dashboard Preview.png")
+[Tableau Dashboard]("Tableau Dashboard Preview.png")
 
-Here is some starter Python code to download the data into memory and query it with SQL. This query prints the top 10 teams with the highest winning percentage:
+Read more on my blog here: https://bigtimestats.wordpress.com/2017/09/18/avp-fivb-beach-volleyball-match-database/
+
+Here is some starter Python code to download the data into memory and query it with SQL. This code was run in 
+
+[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
+
+google colaboratory and prints the top 10 teams with the highest winning percentage:
 
 ```
 import pandas as pd
@@ -38,8 +44,9 @@ import pandasql as ps
 url = ['https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_archive_2000_to_2017_v2.csv',
        'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20170729_to_20170912.csv',
        'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20170913_to_20180314.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20180315_to_20180821.csv'
-      ]       
+       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20180315_to_20180821.csv',
+       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20180822_to_20190409.csv'
+      ]        
       
 li = []
 for i in range(len(url)):
