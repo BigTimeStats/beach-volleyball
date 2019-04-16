@@ -26,6 +26,8 @@ Using this data, I created a beach volleyball Tableau dashboard to summarize som
 
 https://public.tableau.com/views/AVPFIVBPlayerInteractiveResultsandStats/Dashboard3
 
+![Tableau Dashboard](Tableau Dashboard Preview.png)
+
 Here is some starter Python code to download the data into memory and query it with SQL. This query prints the top 10 teams with the highest winning percentage:
 
 ```
@@ -50,8 +52,8 @@ df.head(5)
 
 q1 = """
 select player1, player2, 
-count(*) as count, 
-AVG(Win) as win_pct
+count(*) as matches_played, 
+round(AVG(Win) * 100, 0) as win_pct
 FROM
 (select w_player1 as player1, w_player2 as player2, 1 as Win from df
 UNION ALL
@@ -63,21 +65,20 @@ limit 10
 """
 
 print(ps.sqldf(q1, locals()))
-
 ```
 Output:
 ```
-                player1               player2  count   Win_Pct
-0  Kerri Walsh Jennings     Misty May-Treanor    846  0.924350
-1            April Ross  Kerri Walsh Jennings    241  0.879668
-2        Larissa Franca        Talita Antunes    194  0.855670
-3       Phil Dalhausser           Todd Rogers    689  0.853411
-4    Juliana Felisberta        Larissa Franca    622  0.842444
-5         Elaine Youngs          Holly McPeak    259  0.830116
-6      Ana Paula Henkel          Sandra Pires    106  0.820755
-7      Jonas Reckermann          Julius Brink    186  0.795699
-8         Elaine Youngs        Nicole Branagh    369  0.794038
-9          Emanuel Rego        Ricardo Santos    567  0.793651
+                player1               player2  matches_played  win_pct
+0  Kerri Walsh Jennings     Misty May-Treanor             846     92.0
+1            April Ross  Kerri Walsh Jennings             241     88.0
+2        Larissa Franca        Talita Antunes             194     86.0
+3       Phil Dalhausser           Todd Rogers             689     85.0
+4    Juliana Felisberta        Larissa Franca             622     84.0
+5         Elaine Youngs          Holly McPeak             259     83.0
+6      Ana Paula Henkel          Sandra Pires             106     82.0
+7      Jonas Reckermann          Julius Brink             186     80.0
+8         Elaine Youngs        Nicole Branagh             369     79.0
+9          Emanuel Rego        Ricardo Santos             567     79.0
 ```
 
 
