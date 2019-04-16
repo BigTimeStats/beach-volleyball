@@ -26,7 +26,7 @@ Using this data, I created a beach volleyball Tableau dashboard to summarize som
 
 https://public.tableau.com/views/AVPFIVBPlayerInteractiveResultsandStats/Dashboard3
 
-![Tableau Dashboard](Tableau Dashboard Preview.png)
+![Tableau Dashboard]("Tableau Dashboard Preview.png")
 
 Here is some starter Python code to download the data into memory and query it with SQL. This query prints the top 10 teams with the highest winning percentage:
 
