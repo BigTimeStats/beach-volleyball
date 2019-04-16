@@ -31,9 +31,9 @@ https://public.tableau.com/views/AVPFIVBPlayerInteractiveResultsandStats/Dashboa
 Read more on my blog here: https://bigtimestats.wordpress.com/2017/09/18/avp-fivb-beach-volleyball-match-database/
 
 
-## Python
+# Python
 
-Here is some starter Python code to download the data into memory and query it with SQL. This code was run in [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) and prints the top 10 teams with the highest winning percentage:
+Here is some starter code in Python to download the data into memory and query it with SQL. This code was run in [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) and prints the top 10 teams with the highest winning percentage:
 
 ```
 import pandas as pd
