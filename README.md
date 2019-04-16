@@ -26,7 +26,7 @@ Using this data, I created a beach volleyball Tableau dashboard to summarize som
 
 https://public.tableau.com/views/AVPFIVBPlayerInteractiveResultsandStats/Dashboard3
 
-![Tableau Dashboard](https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/Tableau%20Dashboard%20Preview.png "Tableau Dashboard.png")
+![Tableau Dashboard](https://github.com/BigTimeStats/beach-volleyball/blob/master/images/Tableau%20Dashboard%20Preview.png "Tableau Dashboard.png")
 
 Read more on my blog here: https://bigtimestats.wordpress.com/2017/09/18/avp-fivb-beach-volleyball-match-database/
 
