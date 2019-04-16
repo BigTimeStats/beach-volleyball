@@ -22,11 +22,11 @@ Match stats (columns 34:65) represent match totals. Available for Contender's Br
 
 # Example Work
 
-Using this data, I created a beach volleyball Tableau dashboard to summarize some key metrics around winning:
+Using this data, I created a beach volleyball Tableau dashboard to summarize some key metrics:
 
 https://public.tableau.com/views/AVPFIVBPlayerInteractiveResultsandStats/Dashboard3
 
-Here is some Python code to download the data into memory and query it with SQL. This query prints the top 10 teams with the highest winning percentage:
+Here is some starter Python code to download the data into memory and query it with SQL. This query prints the top 10 teams with the highest winning percentage:
 
 ```
 import pandas as pd
