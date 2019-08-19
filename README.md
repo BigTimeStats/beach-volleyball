@@ -40,11 +40,11 @@ import pandas as pd
 # !pip install pandasql
 import pandasql as ps
 
-url = ['https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_archive_2000_to_2017_v2.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20170729_to_20170912.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20170913_to_20180314.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20180315_to_20180821.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/match_update_20180822_to_20190409.csv'
+url = ['https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_archive_2000_to_2017_v2.csv',
+       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20170729_to_20170912.csv',
+       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20170913_to_20180314.csv',
+       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20180315_to_20180821.csv',
+       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20180822_to_20190409.csv'
       ]        
       
 li = []
