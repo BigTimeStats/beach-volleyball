@@ -42,19 +42,10 @@ import pandas as pd
 # !pip install pandasql
 import pandasql as ps
 
-url = ['https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_archive_2000_to_2017_v2.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20170729_to_20170912.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20170913_to_20180314.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20180315_to_20180821.csv',
-       'https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/match_update_20180822_to_20190409.csv'
-      ]        
-      
-li = []
-for i in range(len(url)):
-    temp = pd.read_csv(url[i], index_col=None, header=0)
-    li.append(temp)
+url = ['https://raw.githubusercontent.com/BigTimeStats/beach-volleyball/master/data/full_archive/full_archive.csv'
+      ]       
 
-df = pd.concat(li, axis=0, ignore_index=True)
+df = pd.read_csv(url[0], index_col=None, header=0, encoding = "latin-1")
 
 df.head(5)
 
