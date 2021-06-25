@@ -2,7 +2,7 @@ Data Last Updated: 3/18/2021
 
 # Beach Volleyball Match Data and Statistics
 
-This repository contains **most** beach volleyball men's and women's match data and match statistics from the AVP & FIVB tours. Archive contains matches from September 2000 to July 2017. Updated files published periodically with match dates in filenames.
+This repository contains **most** beach volleyball men's and women's match data and match statistics from the AVP & FIVB tours. 
 
 **Notes:**
 
@@ -10,7 +10,7 @@ Date represents tournament date and is typically the first day of the tournament
 
 The winning team is denoted by "w_" and the losing team is denoted by "l_". 
 
-The player names have been sorted alphabetically for a winning or losing team. This means that "Nick Lucena" should always appear in "w_player1" and "Phil Dalhausser" should appear in "w_player2", regardless of the data source order.
+The player names have been sorted alphabetically within each row between player1 and player2. This means that "Nick Lucena" should always appear in "w_player1" and "Phil Dalhausser" should appear in "w_player2", regardless of the data source order. This allows easier matching downstream.
 
 Age is represented in years and is calculated as: (event date - birthdate) / 365.25, rounded to 7 decimals.
 
