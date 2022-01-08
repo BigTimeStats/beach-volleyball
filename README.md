@@ -1,4 +1,4 @@
-Data Last Updated: 3/18/2021
+Data Last Updated: 1/8/2022
 
 # Beach Volleyball Match Data and Statistics
 
