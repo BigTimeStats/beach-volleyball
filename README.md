@@ -1,4 +1,4 @@
-See more at www.bigtimestats.substack.com
+See more at bigtimestats.substack.com
 
 Data Last Updated: 1/8/2022
 
